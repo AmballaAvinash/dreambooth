@@ -1,0 +1,1 @@
+dataset - The dataset includes 30 subjects of 15 different classes. 9 out of these subjects are live subjects (dogs and cats) and 21 are objects.   
