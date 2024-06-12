@@ -1,7 +1,7 @@
 from diffusers import StableDiffusionPipeline
 import torch
 
-model_id = "path-to-your-trained-model"
+model_id = "./results"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
 
 prompt = "A photo of sks dog in a bucket"
